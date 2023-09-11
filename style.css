@@ -1,0 +1,98 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    /* width: 460px; */
+    width: 29rem;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.container .title{
+    font-size: 2rem;
+    color: #333;
+}
+
+.container .price{
+    color: #ff6b6b;
+}
+
+.container span{
+    font-size: 1.2rem;
+}
+
+.container .description{
+    color: #3b3b3b;
+    font-size: 1.1rem;
+    margin: 20px 0px 20px;
+}
+
+.container .offer{
+    display: block;
+   color: #555;
+   font-size: 1rem;
+   margin-top: 25px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 0;
+    background-color: #ff6b6b;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 500;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    background-color: #ff4b4b;
+}
+
+.ribbon_wrap{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    pointer-events: none;
+}
+
+.ribbon{
+    width: 230px;
+    font-size: 0.918rem;
+    text-align: center;
+    padding: 8px 0;
+    background-color: #ff6f6f;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -17px;
+    top: 29%;
+}
